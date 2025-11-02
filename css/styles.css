@@ -4,6 +4,18 @@ body {
     color: #434455;
     background-color: #fff;
 }
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
 
 ul,
 ol {
@@ -12,6 +24,14 @@ ol {
 
 a {
     text-decoration: none;
+}
+
+.container {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 141px;
+    margin-right: 141px
 }
 
 .logo {
@@ -50,6 +70,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+
 }
 
 .address-link:hover,
