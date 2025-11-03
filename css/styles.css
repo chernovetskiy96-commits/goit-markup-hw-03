@@ -27,11 +27,37 @@ a {
 }
 
 .container {
-    max-width: 100%;
+    max-width: 1440px;
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: 141px;
-    margin-right: 141px
+    margin-left: auto;
+    margin-right: auto;
+}
+.page-header {
+    display: flex;
+    justify-content: center;
+    height: 72px;
+}
+
+.page-header .container {
+display: flex;
+gap: 24px;
+align-items: center;
+height: 72px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+
+}
+
+.nav-list {
+    display: flex;
+    justify-items: center;
+    column-gap: 40px;
 }
 
 .logo {
@@ -42,6 +68,23 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: flex;
+    align-items: center;
+    padding-right: 76px;
+}
+
+.main-heade {
+    height: 600px;
+}
+
+.main-title {
+    display: block;
+    align-items: center;
+    padding-top: 188px;
+}
+
+.title {
+    display: none;
 }
 
 .header-logo .logo-part {
@@ -52,6 +95,15 @@ a {
     color: #f4f4fd;
 }
 
+.contacts .address-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 24px;
+}
+
+
+
 .nav-link {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -59,7 +111,10 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    display: block;
+    padding: 24px 0;
 }
+
 
 .contacts {
     font-style: normal;
