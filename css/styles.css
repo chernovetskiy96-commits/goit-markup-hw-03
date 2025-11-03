@@ -14,7 +14,8 @@ ul {
 }
 
 img {
-    display: block;
+    display: block; 
+    max-width: 100%;
 }
 
 ul,
@@ -41,10 +42,10 @@ a {
 }
 
 .page-header .container {
-display: flex;
-gap: 24px;
-align-items: center;
-height: 72px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    height: 72px;
 }
 
 .header-nav {
@@ -77,14 +78,66 @@ height: 72px;
     height: 600px;
 }
 
-.main-title {
-    display: block;
-    align-items: center;
-    padding-top: 188px;
-}
 
 .title {
     display: none;
+}
+
+.main-criterias-items {
+    display: flex;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+
+.main-criterias-page {
+    display: block;
+    text-align: center;
+}
+
+.container .our-team-objekts {
+    display: flex;
+    margin: 0 auto;
+}
+
+.team-names {
+    text-align: center;
+    padding: 32px 0 8px;
+}
+
+.team-icon {
+    display: flex;
+    flex-direction: column;
+    height: 260px;
+    width: calc((100% - 24px * 3) / 4);
+}
+
+.team-page {
+    text-align: center;
+}
+
+.our-portfolio {
+    padding-top: 120px;
+}
+
+.portfolio-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 260px;
+    width: calc((100% - 24px * 6) / 6);
+}
+
+.team-list {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 120px;
+}
+
+.our-portfolio-lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 72px;
 }
 
 .header-logo .logo-part {
@@ -146,23 +199,33 @@ height: 72px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    padding-top: 188px;
+    max-width: 496px;
+    margin: 0 auto;
+    padding-bottom: 48px;
 }
 
 .main-button {
     background: #4d5ae5;
+    color: #fff;
+    border-radius: 4px;
+        padding: 16px 32px;
+        width: 169px;
+        height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
+
 .main-button {
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    cursor: pointer;
+    display: block;
+    margin: 0 auto;
 }
 
 .main-button:hover,
 .main-button:focus {
     background-color: #404bbf;
 }
+
+
 
 .main-criterias-title {
     font-weight: 500;
