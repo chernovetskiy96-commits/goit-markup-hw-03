@@ -122,6 +122,10 @@ a {
     margin: -1px;
 }
 
+.main-criterias-list {
+    padding: 120px 0;
+}
+
 .main-criteriars-block {
     width: calc((100% - 72px) / 4);
 }
@@ -168,6 +172,7 @@ a {
     justify-content: space-evenly;
     padding-top: 120px;
     gap: 24px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-icon {
