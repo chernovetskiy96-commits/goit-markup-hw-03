@@ -94,7 +94,7 @@ a {
 }
 
 .main-heade {
-    padding: 120px 0;
+    padding: 188px 0;
 }
 
 .main-button {
@@ -109,7 +109,7 @@ a {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
- .title, .visually-hidden {
+ .visually-hidden {
     position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -150,6 +150,7 @@ a {
 .our-team {
     display: flex;
     margin: 0 auto;
+    padding: 120px 0;
 }
 
 .team-names {
@@ -286,8 +287,7 @@ a {
 }
 
 .our-portfolio {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 
 .portfolio-title {
@@ -340,6 +340,7 @@ a {
 
 .portfolio-icon {
     width: calc((100% - 48px) / 3);
+    border-radius: 0px 0px 4px 4px;
 }
 
 
