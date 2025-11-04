@@ -303,10 +303,7 @@ a {
     gap: 24px;
     justify-content: space-between;
     margin-bottom: 120px;
-}
-
-.portfolio-icon {
-
+    border: 1px #E7E9FC;
 }
 
 
