@@ -45,11 +45,13 @@ a {
     display: flex;
     gap: 24px;
     align-items: center;
+    justify-content: space-between;
     height: 72px;
 }
 
 .header-nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     flex-grow: 1;
 
