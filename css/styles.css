@@ -111,14 +111,9 @@ a {
 
  .visually-hidden {
     position: absolute;
-    white-space: nowrap;
     width: 1px;
-    height: 1px;
     overflow: hidden;
     border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
 }
 
 .main-criterias-list {
@@ -179,9 +174,6 @@ a {
     flex-direction: column;
     height: 260px;
     width: calc((100% - 24px * 3) / 4);
-}
-
-.team-photo {
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -263,7 +255,6 @@ a {
 
 .team-icon {
     background-color: #FFFFFF;
-    border-radius: 0px 0px;
 }
 
 .team-title {
