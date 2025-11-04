@@ -144,22 +144,11 @@ a {
 
 .team-names {
     text-align: center;
-    padding: 32px 0 8px;
-}
-
-.team-icon {
-    display: flex;
-    flex-direction: column;
-    height: 260px;
-    width: calc((100% - 24px * 3) / 4);
+    margin-bottom: 8px;
 }
 
 .team-page {
     text-align: center;
-}
-
-.our-portfolio {
-    padding-top: 120px;
 }
 
 
@@ -167,13 +156,26 @@ a {
     display: flex;
     justify-content: space-evenly;
     padding-top: 120px;
+    gap: 24px;
+}
+
+.team-icon {
+    display: flex;
+    flex-direction: column;
+    height: 260px;
+    width: calc((100% - 24px * 3) / 4);
+    border-radius: 0px 0px;
+}
+
+.name-and-profesinal {
+    padding: 32px 0;
 }
 
 .header-logo .logo-part {
     color: #2e2f42;
 }
 
- .footer-logo .logo-part {
+.footer-logo .logo-part {
     color: #f4f4fd;
 }
 
@@ -243,9 +245,12 @@ a {
 
 .our-team {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
+
 .team-icon {
     background-color: #FFFFFF;
+    border-radius: 0px 0px;
 }
 
 .team-title {
@@ -256,6 +261,7 @@ a {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .team-names {
@@ -274,6 +280,10 @@ a {
     color: #434455;
 }
 
+.our-portfolio {
+    padding-top: 120px;
+}
+
 .portfolio-title {
         font-weight: 500;
         font-size: 36px;
@@ -282,8 +292,9 @@ a {
         text-align: center;
         text-transform: capitalize;
         color: #2e2f42;
-        padding-bottom: 72px;
+        margin-bottom: 72px;
 }
+
 
 .portfolio-list {
         font-weight: 500;
@@ -292,7 +303,7 @@ a {
         letter-spacing: 0.02em;
         color: #2e2f42;
         padding-top: 24px;
-        padding-bottom: 8px;
+        margin-bottom: 8px;
 }
 
 .portfolio-page {
@@ -306,17 +317,28 @@ a {
 .our-portfolio-lists {
     display: flex;
     flex-wrap: wrap;
+    row-gap: 48px;
     gap: 24px;
     justify-content: space-between;
     margin-bottom: 120px;
     border: 1px #E7E9FC;
+}
+.app-and-categoria {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.portfolio-icon {
+    border-radius: 0px 0px;
+    width: calc((100% - 48px) / 3)
 }
 
 
 .footer-section {
     background-color: #2e2f42;
     height: 312px;
-    padding-top: 100px;
+    padding: 100px 0;
 }
 
 .footer-page {
@@ -328,6 +350,11 @@ a {
     max-width: 100%;
     width: 264px;
     padding-top: 16px;
+}
+
+.logo .footer-logo .logo-part {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-container {
